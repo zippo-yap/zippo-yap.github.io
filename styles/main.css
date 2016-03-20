@@ -14,11 +14,11 @@
 
 nav ul {
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 
 
-nav ul li {
+nav li {
   background: #000;
   color: #fff;
   display: inline-block;
@@ -26,14 +26,54 @@ nav ul li {
   padding: 1%;
 }
 
-nav ul li a {
+nav a, .dropbtn {
   color: #fff ;
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #C3B06C;
+
+.logo {
+  font-family: 'Oswald';
+  float: left;
 }
+
+.active {
+  border: 1px solid white;
+}
+
+li.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: -50%;
+  background-color: black;
+  min-width: 200px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #999;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /* -------BODY STYLES-------- */ 
 body {
@@ -44,37 +84,37 @@ body {
   padding: 0;
   }q
 
-h2 {
-  font-size: 3.5vh;
-  font-weight: 300;
-  margin: 0;
-  text-transform: uppercase;
-}
+  h2 {
+    font-size: 3.5vh;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+  }
 
-.date {
-  font-size: 1em;
-  margin: 0 0 1em;
-}
+  .date {
+    font-size: 1em;
+    margin: 0 0 1em;
+  }
 
-a {
-  text-decoration: none;
-  color: #008583;
-}
+  a {
+    text-decoration: none;
+    color: #008583;
+  }
 
-article {
-  background: #ffffff;
-  margin:auto;
-  padding:5% 10% 5% 10%;
-}
+  article {
+    background: #ffffff;
+    margin:auto;
+    padding:5% 10% 5% 10%;
+  }
 
-.aligncenter {
- display: block;
- margin: auto;
-}
+  .aligncenter {
+   display: block;
+   margin: auto;
+ }
 
-/* ---------COVER IMAGES------ */
+ /* ---------COVER IMAGES------ */
 
-.index {
+ .index {
   background: url(../media/cat.jpg);
 }
 
@@ -83,7 +123,7 @@ article {
 }
 
 .time {
-  background: url(../media/blur.jpg);
+  background: url(../media/crisscross.jpg);
 }
 
 /*--------------------JUMBOTRON------------- */
@@ -104,25 +144,34 @@ article {
   position: relative;
   top: 52%;
   left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%); 
   display: block;
   text-align: center;
-  
+
 }
 
 h1 {
  color: #FFF;
  font-size: 5.9vmax;
  margin: 0;
- padding: 0;
+ padding: 0 0 20px 0;
  text-transform: uppercase;
 
 }
 
-.tag {
+.tagline {
   color: #ffffff;
-  font-size: 3.2vh;
+  font-size: 3.5vh;
   padding: 0 0 20px 0;
+}
+
+
+.quote {
+  color: #ffffff;
+  font-size: 3.5vh;
+  padding: 0 0 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
 }
 
 .button {
@@ -131,10 +180,24 @@ h1 {
   border: 2px solid white;
   color: white;
   padding: 10px;
-  width: 150px;
+  width: 300px;
 }
 
+/* --------------SOCIAL----------------- */
+#social ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
+#social ul li {
+  display: inline;
+  padding: 10px;
+}
+
+#social i {
+  color: #ffffff;
+}
 
 /* -----------------FOOTER-------------------*/
 
@@ -142,3 +205,4 @@ footer {
   text-align: center;
   padding: 5px;
 }
+
