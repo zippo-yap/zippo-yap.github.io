@@ -168,7 +168,7 @@ h1 {
 
 .quote {
   color: #ffffff;
-  font-size: 3.5vh;
+  font-size: 3.2vmax;
   padding: 0 0 20px 0;
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid white;
