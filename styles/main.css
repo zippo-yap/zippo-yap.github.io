@@ -20,9 +20,14 @@ h2 {
   }
 
 a {
-  color: #008583;
+  color: #666;
+  font-weight: 700;
   text-decoration: none;
   }
+
+a:hover {
+  color: #000;
+}
 
 article {
   background: #fff;
