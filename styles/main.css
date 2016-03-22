@@ -86,6 +86,11 @@ nav a,
   text-decoration: none;
   }
 
+nav a:hover, 
+.dropbtn:hover {
+  color: #fff ;
+     }
+
 .dropdown > a:after {
   color: #888;
   content: '▾';
