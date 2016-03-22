@@ -19,11 +19,6 @@ h2 {
   text-transform: uppercase;
   }
 
-.date {
-  font-size: 1em;
-  margin: 0 0 1em;
-  }
-
 a {
   color: #008583;
   text-decoration: none;
@@ -40,6 +35,14 @@ article {
    display: block;
    margin: auto;
  }
+
+time {
+  margin: 0 0 1em;
+  }
+
+
+
+
 
 /*
   ========================================
@@ -80,7 +83,8 @@ nav a,
 
 .dropdown > a:after {
   color: #888;
-  content: ' ▾';
+  content: '▾';
+
   }
 
 .logo {
@@ -133,6 +137,10 @@ nav a,
   display: block;
   }
 
+
+
+
+
  /*
   ========================================
   Cover Images
@@ -151,13 +159,19 @@ nav a,
   background: url("../media/crisscross.jpg");
 }
 
+.udacity {
+  background: url("../media/lego2.jpg");
+}
+
+
+
 /*
   ========================================
   Jumbotron styles
   ========================================
 */
 
-.indexcover {
+.jumbotron {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -170,8 +184,9 @@ nav a,
 
 .container {
   left: 50%;
-  position: relative;
+  position: absolute;
   text-align: center;
+  text-shadow: 2px 2px 4px #000;
   top: 52%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -183,7 +198,6 @@ h1 {
   margin: 0;
   padding: 0 0 20px;
   text-transform: uppercase;
-
 }
 
 .tagline {
@@ -194,12 +208,11 @@ h1 {
 
 
 .quote {
-  background: rgba(0, 0, 0, 0.5);
-  border: 2px solid #fff;
   color: #fff;
   font-size: 3.2vmax;
+  font-weight: 400;
   padding: 0 0 20px 0;
-}
+  }
 
 .button {
   background: rgba(0, 0, 0, 0.5);
@@ -208,6 +221,9 @@ h1 {
   padding: 10px;
   width: 300px;
 }
+
+
+
 
 
 /*
@@ -230,6 +246,10 @@ h1 {
 #social i {
   color: #fff;
 }
+
+
+
+
 
 /*
   ========================================
