@@ -1,4 +1,20 @@
-* {
-  text-align: center;
-  border: 1px red solid;
+.nav {
+  background: black;
 }
+
+.index {
+  background: blue;
+}
+
+
+.footer {
+  background: #999;
+}
+.wrapper {
+  text-align: center;
+}
+
+.container {
+  border: 1px dotted red;
+}
+
