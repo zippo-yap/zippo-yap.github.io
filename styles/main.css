@@ -11,6 +11,10 @@ h3 {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header
 ============== */
 h2 {
@@ -40,3 +44,10 @@ h2 {
 .footer {
   background: #edf3f3;
 }
+
+
+/* 
+Pink: #E0A0AC; 
+Teal: #24C2C4;
+
+*/
