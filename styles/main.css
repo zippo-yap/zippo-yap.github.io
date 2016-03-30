@@ -1,20 +1,42 @@
-.nav {
-  background: black;
-}
-
-.index {
-  background: blue;
-}
-
-
-.footer {
-  background: #999;
-}
+/* Body Styles 
+==============*/
 .wrapper {
   text-align: center;
 }
 
-.container {
-  border: 1px dotted red;
+h3 {
+  background: black;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
 }
 
+/* Header
+============== */
+h2 {
+  color: #0A343C;
+
+}
+
+.index {
+  background: #28bdbe;
+  color: #fff;
+}
+
+
+/* Navigation
+=============== */
+.nav {
+  background: #000;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+}
+
+/* Footer 
+===============*/
+.footer {
+  background: #edf3f3;
+}
