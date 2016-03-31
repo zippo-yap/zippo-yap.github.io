@@ -99,9 +99,9 @@ a:hover {
 }
 
 .button {
-  background: #7D9FB5;
-  border-color: #7D9FB5;
-  color: #000;
+  /* background: #7D9FB5;
+  border-color: #7D9FB5; */
+  color: #fff;
   display: inline-block;
   font-weight: 900;
 }
