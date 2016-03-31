@@ -151,6 +151,7 @@ li {
 
 .nav ul {
  list-style: none;
+ width: 100%;
 }
 
 .nav li {
@@ -174,7 +175,7 @@ li {
   transition: all .2s ease-in-out;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* To position the dropdown content */
 .dropdown {
   display: inline-block;
   position: relative;
@@ -209,10 +210,6 @@ li {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropbtn {
-  position: relative;
 }
 
 
