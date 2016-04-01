@@ -164,21 +164,33 @@ nav a:hover {
 
   /* Header */
 
-/* Add padding after header section */
+  /* Add padding after header section */
   .main-content {
-  padding: 5rem 0;
- }
-
-  /* Footer */
-  footer ul {
-    list-style: none;
+    padding: 5rem 0;
   }
 
-  footer li {
-   display: inline-block;
+  .photo {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -ms-flex-pack: center;
+   justify-content: center;
  }
 
- footer a {
+
+ /* Footer */
+ footer ul {
+  list-style: none;
+}
+
+footer li {
+ display: inline-block;
+}
+
+footer a {
   color: #999;
   text-decoration: none;
   padding-left: 0;
@@ -222,7 +234,7 @@ footer a:hover {
 @media (min-width: 550px) {
 /*  .main-content {
   padding: 5rem 0;
-} */
+  } */
 }
 
 /* Larger than tablet */
