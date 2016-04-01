@@ -71,11 +71,19 @@ h4 {
 }
 
 p {
-  padding: 2rem;
+ font-family: 'Roboto Slab', serif;
 }
 
 .logo {
   font-size: 2rem;
+}
+
+a {
+ color: #2E4D5F;
+}
+
+a:hover {
+  color: #000;
 }
 
 
@@ -114,7 +122,6 @@ nav {
 
 nav ul {
  list-style: none;
- width: 100%;
 }
 
 nav li {
@@ -125,15 +132,15 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #c4cbcf;
   text-decoration: none;
   padding-left: 0;
+  font-weight: 900;
   
 }
 
 nav a:hover {
-  padding-left: 1rem;
-  font-weight: 900;
+  color: #fff;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -163,6 +170,10 @@ nav a:hover {
   }
 
   /* Header */
+  .intro {
+    color: white;
+    font-size: 2rem;
+  }
 
   /* Add padding after header section */
   .main-content {
@@ -180,22 +191,13 @@ nav a:hover {
    justify-content: center;
  }
 
-/* Hover Styles
-================= */
 
-a {
- color: #2E4D5F;
-}
-
-a:hover {
-  color: #000;
-}
 
 /* Button Styles 
 ==================*/
 
 .button {
-  color: #fff;
+  color: #c4cbcf;
   display: inline-block;
   font-weight: 900;
 }
@@ -218,7 +220,7 @@ footer li {
 }
 
 footer a {
-  color: #999;
+  color: #c4cbcf;
   text-decoration: none;
   padding-left: 0;
 }
@@ -264,7 +266,7 @@ footer a:hover {
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-
+}
 /* Larger than desktop */
 @media (min-width: 1000px) {
 
