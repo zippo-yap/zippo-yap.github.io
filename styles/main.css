@@ -180,8 +180,35 @@ nav a:hover {
    justify-content: center;
  }
 
+/* Hover Styles
+================= */
 
- /* Footer */
+a {
+ color: #2E4D5F;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Button Styles 
+==================*/
+
+.button {
+  color: #fff;
+  display: inline-block;
+  font-weight: 900;
+}
+
+.button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+
+ /* Footer 
+ =================*/
+
  footer ul {
   list-style: none;
 }
@@ -226,21 +253,17 @@ footer a:hover {
 /* Larger than mobile */
 @media (min-width: 400px) {
  .main-content {
-  padding: 5rem 0;
   width: 100%;
 }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-/*  .main-content {
-  padding: 5rem 0;
-  } */
+
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
