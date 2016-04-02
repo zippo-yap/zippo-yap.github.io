@@ -1,9 +1,9 @@
-div,
+/* div,
 header,
 section,
 footer {
   border: 1px dotted red;
-}
+  } */
 
 /* Table of Contents 
 =====================================
@@ -195,6 +195,7 @@ nav a:hover {
 
 
 
+
 /* Button Styles 
 ==================*/
 
@@ -254,41 +255,40 @@ footer a:hover {
 /* #Media Queries
 ===================================== */
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media screen (min-width: 400px) {
  .main-content {
   width: 100%;
-  }
+}
 }
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+@media screen (min-width: 550px) {
   nav li {
     display: inline-block;
     margin-bottom: 0;
     min-width: 120px;
   }
-}
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-  nav ul {
-    margin-top: 2%;
-  }
- nav li {
-    display: inline-block;
-    margin-bottom: 0;
-    min-width: 50px;
-  }
+  /* Larger than tablet */
+  @media screen (min-width: 750px) {
+    nav ul {
+      margin-top: 2%;
+    }
+    nav li {
+      display: inline-block;
+      margin-bottom: 0;
+      min-width: 50px;
+    }
 
   }
 
   /* Larger than desktop */
-  @media (min-width: 1000px) {
+  @media screen (min-width: 1000px) {
 
   }
 
   /* Larger than Desktop HD */
-  @media (min-width: 1200px) {
+  @media screen (min-width: 1200px) {
 
   }
 
