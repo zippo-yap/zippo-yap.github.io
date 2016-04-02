@@ -1,9 +1,9 @@
-div,
+/* div,
 header,
 section,
 footer {
   border: 1px dotted red;
-}
+  } */
 
 /* Table of Contents 
 =====================================
@@ -111,6 +111,14 @@ html {
   text-align: center;
 }
 
+body {
+  min-width: 320px;
+}
+
+ul, li, a {
+  margin: 0;
+  padding: 0;
+}
 
 /* Navigation */
 nav {
@@ -132,12 +140,15 @@ nav li {
   white-space: nowrap;
 }
 
+nav ul:last-child{
+  padding-bottom: 2rem;
+}
+
 nav a {
   color: #c4cbcf;
   display: block;
   text-decoration: none;
-  padding-left: 0;
-  font-weight: 900;
+   font-weight: 900;
 
 }
 
@@ -179,7 +190,7 @@ nav a:hover {
 
   /* Add padding after header section */
   .main-content {
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
   }
 
   .photo {
@@ -213,7 +224,12 @@ nav a:hover {
  /* Footer 
  =================*/
 
- footer ul {
+footer {
+  padding: 2rem;
+}
+
+
+footer ul {
   list-style: none;
 }
 
@@ -236,7 +252,6 @@ footer a:hover {
 
 .copyright {
   font-size: 1rem;
-  padding-top: 2rem;
   display: block;
 }
 
@@ -244,6 +259,10 @@ footer a:hover {
   background: #000;
   padding: 1rem;
   border-radius: 50%;
+}
+
+div.one-third.column{
+  padding-bottom: 2rem;
 }
 
 
@@ -255,40 +274,51 @@ footer a:hover {
 ===================================== */
 /* Larger than mobile */
 @media (min-width: 400px) {
- .main-content {
-  width: 100%;
-  }
+
 }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
+  nav ul:last-child{
+  padding-bottom: 0;
+}
   nav li {
     display: inline-block;
     margin-bottom: 0;
     min-width: 120px;
   }
+  .one-third.column { 
+    width: 100%; 
+    margin-left: 0; 
+  }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+ 
+.one-third.column { 
+  width: 30.6666666667%;
+  margin-left: 2%;
+}
+
   nav ul {
     margin-top: 2%;
   }
- nav li {
+  nav li {
     display: inline-block;
     margin-bottom: 0;
     min-width: 50px;
   }
 
-  }
+}
 
-  /* Larger than desktop */
-  @media (min-width: 1000px) {
+/* Larger than desktop */
+@media (min-width: 1000px) {
 
-  }
+}
 
-  /* Larger than Desktop HD */
-  @media (min-width: 1200px) {
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
 
-  }
+}
 
