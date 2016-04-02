@@ -206,6 +206,7 @@ nav a:hover {
 
 
 
+
 /* Button Styles 
 ==================*/
 
@@ -273,6 +274,7 @@ div.one-third.column{
 /* #Media Queries
 ===================================== */
 /* Larger than mobile */
+<<<<<<< HEAD
 @media (min-width: 400px) {
 
 }
@@ -282,11 +284,22 @@ div.one-third.column{
   nav ul:last-child{
   padding-bottom: 0;
 }
+=======
+@media screen (min-width: 400px) {
+ .main-content {
+  width: 100%;
+}
+}
+
+/* Larger than phablet */
+@media screen (min-width: 550px) {
+>>>>>>> 8a15821a54fa41fabcd4382549988b13c448e7c1
   nav li {
     display: inline-block;
     margin-bottom: 0;
     min-width: 120px;
   }
+<<<<<<< HEAD
   .one-third.column { 
     width: 100%; 
     margin-left: 0; 
@@ -309,16 +322,39 @@ div.one-third.column{
     margin-bottom: 0;
     min-width: 50px;
   }
+=======
+
+  /* Larger than tablet */
+  @media screen (min-width: 750px) {
+    nav ul {
+      margin-top: 2%;
+    }
+    nav li {
+      display: inline-block;
+      margin-bottom: 0;
+      min-width: 50px;
+    }
+>>>>>>> 8a15821a54fa41fabcd4382549988b13c448e7c1
 
 }
 
+<<<<<<< HEAD
 /* Larger than desktop */
 @media (min-width: 1000px) {
+=======
+  /* Larger than desktop */
+  @media screen (min-width: 1000px) {
+>>>>>>> 8a15821a54fa41fabcd4382549988b13c448e7c1
 
 }
 
+<<<<<<< HEAD
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+=======
+  /* Larger than Desktop HD */
+  @media screen (min-width: 1200px) {
+>>>>>>> 8a15821a54fa41fabcd4382549988b13c448e7c1
 
 }
 
