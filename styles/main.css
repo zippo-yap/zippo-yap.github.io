@@ -125,6 +125,7 @@ nav {
   background: #000;
   color: #fff;
   word-spacing: 0.3rem;
+  z-index: 1;
 }
 
 
@@ -144,12 +145,12 @@ nav ul:last-child{
   padding-bottom: 2rem;
 }
 
-nav a {
+nav a,
+.dropbtn {
   color: #c4cbcf;
   display: block;
   text-decoration: none;
   font-weight: 900;
-
 }
 
 nav a:hover {
@@ -160,7 +161,54 @@ nav a:hover {
   transition: all .2s ease-in-out;
 }
 
-/* Backgrounds */
+
+.dropdown > a:after {
+  color: #fff;
+  content: ' ▾';
+}
+
+.dropdown {
+  position: relative;
+    }
+
+.dropdown-content {
+  background-color: #999;
+  display: none;
+  min-width: 100%;
+  position: absolute;
+  top:100%;
+  z-index: 1;
+  }
+
+
+.dropdown-content a {
+  color: #fff;
+  display: block;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+       -o-transition: color .1s ease-out, background .2s ease-in;
+      -ms-transition: color .1s ease-out, background .2s ease-in;
+     -moz-transition: color .1s ease-out, background .2s ease-in;
+  -webkit-transition: color .1s ease-out, background .2s ease-in;
+          transition: color .1s ease-out, background .2s ease-in;
+  }
+
+
+.dropdown-content a:hover {
+  background: #999;
+  color: #000;
+  }
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  }
+
+
+/* Backgrounds 
+====================*/
 .index {
   /*   background: url() repeat,
     background: url() repeat-x,
@@ -306,6 +354,13 @@ div.one-third.column{
 
   .zippo {
     display: none;
+  }
+
+.dropdown-content {
+  min-width: 200px;
+  position: absolute;
+  right: -50%;
+  top:100%;
   }
 
 
