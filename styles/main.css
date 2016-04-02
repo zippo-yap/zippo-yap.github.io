@@ -113,6 +113,7 @@ html {
 
 body {
   min-width: 320px;
+  font-family: 'Roboto Slab', serif;
 }
 
 ul, li, a {
@@ -241,6 +242,11 @@ nav a:hover {
     padding: 5rem 0 0 0;
   }
 
+.blog-content {
+   padding: 5rem 2rem 0 2rem;
+}
+
+
   .photo {
    display: -webkit-box;
    display: -webkit-flex;
@@ -320,10 +326,12 @@ div.one-third.column{
   padding-bottom: 2rem;
 }
 
-
-
-/*  #Page Styles
+/* #Page Styles
 ===================================== */
+.blog p {
+  text-align: left;
+}
+
 
 
 /* #Media Queries
@@ -332,6 +340,7 @@ div.one-third.column{
 @media (min-width: 400px) {
 
 }
+
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -377,6 +386,7 @@ div.one-third.column{
   nav ul {
     margin-top: 2%;
   }
+
   nav li {
     display: inline-block;
     margin-bottom: 0;
