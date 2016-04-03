@@ -13,7 +13,7 @@ footer {
 
 /* Typography (baseline corrections)
 ===================================== */ 
-h1, h2, h3, h4, h5, h6, nav, li, button {
+h1, h2, h3, h4, h5, h6, nav, button {
   font-family: 'Biryani', Impact, sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -97,6 +97,9 @@ a:hover {
   color: #000;
 }
 
+p.li {
+
+}
 
 
 /* #Site Styles
