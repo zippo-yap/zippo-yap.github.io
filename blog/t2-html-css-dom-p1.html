@@ -1,62 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Oh My Codeness | Blog</title>
-  <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>&lt;Oh My Codeness&gt; | Blog</title>
+
+  <!-- Styles
+  ====================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Fonts
+  ====================== -->
+  <link href='https://fonts.googleapis.com/css?family=Biryani:400,900,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
-<body>
-  <!-- NAVIGATION -->
+
+<body id="index">
+
+<!-- Navigation & Logo
+  ======================-->
   <nav>
-    <ul>
+    <div class="container">
+      <div class="row nav">
 
-      <li class="logo">&lt; Oh My Codeness &gt;</li>
-      <li class="active"><a href="../index.html">Home</a></li>
-
-      <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
-        <div class="dropdown-content">
-          <a href="c1-reflection-blog.html">Reflections about EDA</a>
-          <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
-          <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+        <div class="four columns">
+          <a href="../index.html"><h1 class="logo">&lt;Oh My Codeness&gt;</h1></a>
         </div>
 
-        <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
-         <div class="dropdown-content">
-          <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
-          <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
-        </div>
-      </li>
+        <div class="eight columns">
+          <ul>
+           <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
+            <div class="dropdown-content">
+              <a href="c1-reflection-blog.html">Reflections about EDA</a>
+              <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
+              <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
+            <div class="dropdown-content">
+             <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
+             <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
+           </div>
+         </li>
+         <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+         <li><a href="aboutme.html" title="About Me">About Me</a></li>
+         <li><a href="#contact" title="Contact Me">Contact Me</a></li>
+       </ul>
+     </div>
 
-      <li><a href="#">Contact Me</a></li>
-
-    </ul>
-  </nav>
-  <!-- JUMBOTRON -->
-  <header class="jumbotron udacity">
-   <div class="container">
-     <div class="quote">"Logic will get you from A to B. Imagination will take you everywhere." - Albert Einstein</div>
    </div>
- </header>
+ </div>
+</nav>   
 
- <article>
-  <header>
-    <h2>Udacity Reflection - Part 1</h2>
-    <time datetime="2016-03-23"><em>Wednesday, 23 March 2016</em></time>
-  </header> 
-  <h4>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h4>
-  <p>If you think of the DOM as a person, HTML is the skeletal system and CSS is your skin, eye color, hair colour and clothing. You are the result of everything going on inside your body. </p>
- <h4>What is meant by boxifying design?</h4>
- <p>This is the process of dividing all elements of a webpage into boxes so that you can then translate the boxes into a html layout.</p>
- <h4>What is the box model? </h4>
- <p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
-</article>
+<!-- Header
+  ======================== -->
+  <header class="index">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Blog.</h2>
+          <h1>Udacity - Part 1</h1>
+          <p class="intro">
+            "Logic will get you from A to B. Imagination will take you everywhere." - Albert Einstein
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
 
 
-<!-- FOOTER -->
-<footer>
-  &copy; 2016 Ohmycodeness
-</footer>
+<!-- Blog Content
+  ======================== -->
+  <section>
+    <div class="container blog-content">
+      <div class="row">
+
+        <div class="blog eight columns">
+          <h3><span><time datetime="2016-03-16">Wednesday, 23 March 2016</time></span></h3>
+          <h4>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h4>
+          <p>
+            If you think of the DOM as a person, HTML is the skeletal system and CSS is your skin, eye color, hair colour and clothing. You are the result of everything going on inside your body.
+          </p>
+          <h4>What is meant by boxifying design?</h4>
+          <p>
+            This is the process of dividing all elements of a webpage into boxes so that you can then translate the boxes into a html layout.
+          </p>
+          <h4>What is the box model? </h4>
+          <p>
+            All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+          </p>
+          <img class="u-max-full-width" src="../media/lego2.jpg" alt="Portfolio">
+        </div>
+
+<!-- Recent Posts 
+  ======================-->
+  <aside class="recent four columns">
+    <h3><span>Recent Posts</span></h3>
+    <ul>
+      <li> <a href="c1-reflection-blog.html">Reflections on EDA</a></li>
+      <li><a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a></li>
+      <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+      <li><a href="t2-html-css-dom-p2.html">Udacity Part 2</a></li>
+    </ul>
+  </aside>
+
+</div>
+</div>
+</section>
+
+<!-- Previous Next 
+  ======================-->
+  <div class="container previous-next">
+    <div class="row">
+      <div class="four columns">
+        <a href="c2-emotional-intelligence.html" alt="Previous"><h5>Previous</h5></a>
+      </div>
+      <div class="four columns">
+        <a href="t2-html-css-dom-p2.html" alt="Next"><h5>Next</h5></a>
+      </div>
+       <!-- <div class="four columns">
+        <a href="../index.html" alt="Home"><h5>Home</h5></a>
+      </div> -->
+    </div>
+  </div>
+
+
+<!-- Footer
+  ======================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><a href="http://www.twitter.com/ohmycodeness" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x round"></i></a></li>
+            <li><a href="http://www.github.com/zippo-yap" title="Github" target=_blank><i class="fa fa-github fa-2x round"></i></a></li>
+            <li><a href="http://www.instagram.com/vsrdwn" title="Instagram" target=_blank><i class="fa fa-instagram fa-2x round"></i></a></li>
+            <li><a href="mailto:zippo-yap@gmail.com" title="Email"><i class="fa fa-envelope fa-2x round"></i></a></li>
+            <li class="copyright">© 2016 OHMYCODENESS ❤</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 </body>
 </html>

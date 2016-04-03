@@ -1,68 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Oh My Codeness | Blog</title>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <title>&lt;Oh My Codeness&gt; | Blog</title>
+
+  <!-- Styles
+  ====================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Fonts
+  ====================== -->
+  <link href='https://fonts.googleapis.com/css?family=Biryani:400,900,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
-<body>
+<body id="index">
 
+<!-- Navigation & Logo
+  ======================-->
   <nav>
-    <ul>
-      <li class="logo">&lt; Oh My Codeness &gt;</li>
-      <li class="active"><a href="../index.html">Home</a></li>
-      <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
-        <div class="dropdown-content">
-          <a href="c1-reflection-blog.html">Reflections about EDA</a>
-          <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
-          <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
-        </div>
-      <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
-        <div class="dropdown-content">
-          <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
-          <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
-        </div>
-      </li>
-      <li><a href="#">Contact Me</a></li>
-    </ul>
-  </nav>
-
-  <header class="jumbotron emotional">
     <div class="container">
-      <div class="quote">
-        <p>
-          “The mind can go in a thousand directions, but on this beautiful path, I walk in peace. With each step, the wind blows. With each step, a flower blooms.” ― Hanh Nhat Thich
-       </p>
+      <div class="row nav">
+
+        <div class="four columns">
+          <a href="../index.html"><h1 class="logo">&lt;Oh My Codeness&gt;</h1></a>
+        </div>
+
+        <div class="eight columns">
+          <ul>
+           <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
+            <div class="dropdown-content">
+              <a href="c1-reflection-blog.html">Reflections about EDA</a>
+              <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
+              <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
+            <div class="dropdown-content">
+             <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
+             <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
+           </div>
+         </li>
+         <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+         <li><a href="aboutme.html" title="About Me">About Me</a></li>
+         <li><a href="#contact" title="Contact Me">Contact Me</a></li>
+       </ul>
      </div>
+
+   </div>
+ </div>
+</nav>   
+
+<!-- Header
+  ======================== -->
+  <header class="index">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Blog.</h2>
+          <h1>Emotional Intelligence</h1>
+          <p class="intro">
+            “The mind can go in a thousand directions, but on this beautiful path, I walk in peace. With each step, the wind blows. With each step, a flower blooms.” ― Hanh Nhat Thich
+          </p>
+
+        </div>
+      </div>
     </div>
+
   </header>
 
-  <article>
-    <header>
-      <h2>Emotional Intelligence</h2>
-      <time datetime="2016-03-23"><em>Wednesday, 23 March 2016</em></time>
-    </header> 
-    <h4>What learnings did you take from the chapter?</h4>
-    <p>
-      I was dreading these videos, but I actually found them to be really useful and simple. I've always believed in my gut and the chapter explained why you have gut feelings and further encourages you to listen to your body in order to train your mindfulness. I really enjoyed that they backed up all of these skills with scientific evidence. I wasn't completely sold on meditation when we did our time and habits concepts, but I definitely want to try it now!
-    </p>
-    <h4>How did you find the two minutes of mindfulness?</h4>
-    <p>
-      I have to confess I actually fell asleep several times during the video and had to replay it about 5 times. I tried practicing mindfulness in the shower this morning and that was really soothing.
-    </p>
-    <img class="aligncenter" src="https://i.imgflip.com/qam3j.jpg" alt="yoda">
-  </article>
 
+<!-- Blog Content
+  ======================== -->
+  <section>
+    <div class="container blog-content">
+      <div class="row">
+
+        <div class="blog eight columns">
+          <h3><span><time datetime="2016-03-23">Wednesday, 23 March 2016</time></span></h3>
+          <h4>What learnings did you take from the chapter?</h4>
+          <p>
+            I was dreading these videos, but I actually found them to be really useful and simple. I've always believed in my gut and the chapter explained why you have gut feelings and further encourages you to listen to your body in order to train your mindfulness. I really enjoyed that they backed up all of these skills with scientific evidence. I wasn't completely sold on meditation when we did our time and habits concepts, but I definitely want to try it now!
+          </p>
+          <h4>How did you find the two minutes of mindfulness?</h4>
+          <p>
+            I have to confess I actually fell asleep several times during the video and had to replay it about 5 times. I tried practicing mindfulness in the shower this morning and that was really soothing.
+          </p>
+          <img class="u-max-full-width" src="https://i.imgflip.com/qam3j.jpg" alt="yoda">
+          
+        </div>
+
+<!-- Recent Posts 
+  ======================-->
+  <aside class="recent four columns">
+    <h3><span>Recent Posts</span></h3>
+    <ul>
+      <li> <a href="c1-reflection-blog.html">Reflections on EDA</a></li>
+      <li><a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a></li>
+      <li><a href="t2-html-css-dom-p1.html">Udacity Part 1</a></li>
+      <li><a href="t2-html-css-dom-p2.html">Udacity Part 2</a></li>
+    </ul>
+  </aside>
+
+</div>
+</div>
+</section>
+
+<!-- Previous Next 
+  ======================-->
+  <div class="container previous-next">
+    <div class="row">
+      <div class="four columns">
+        <a href="c1-time-and-habits-blog.html" alt="Previous"><h5>Previous</h5></a>
+      </div>
+      <div class="four columns">
+        <a href="t2-html-css-dom-p1.html" alt="Next"><h5>Next</h5></a>
+      </div>
+       <!-- <div class="four columns">
+        <a href="../index.html" alt="Home"><h5>Home</h5></a>
+      </div> -->
+    </div>
+  </div>
+
+
+<!-- Footer
+  ======================== -->
   <footer>
-    <p>
-      &copy; 2016 Ohmycodeness
-    </p>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><a href="http://www.twitter.com/ohmycodeness" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x round"></i></a></li>
+            <li><a href="http://www.github.com/zippo-yap" title="Github" target=_blank><i class="fa fa-github fa-2x round"></i></a></li>
+            <li><a href="http://www.instagram.com/vsrdwn" title="Instagram" target=_blank><i class="fa fa-instagram fa-2x round"></i></a></li>
+            <li><a href="mailto:zippo-yap@gmail.com" title="Email"><i class="fa fa-envelope fa-2x round"></i></a></li>
+            <li class="copyright">© 2016 OHMYCODENESS ❤</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
-
+  
 </body>
 </html>

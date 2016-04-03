@@ -1,68 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Oh My Codeness | Blog</title>
-  <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>&lt;Oh My Codeness&gt; | Blog</title>
+
+  <!-- Styles
+  ====================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Fonts
+  ====================== -->
+  <link href='https://fonts.googleapis.com/css?family=Biryani:400,900,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
-<body>
-  <!-- NAVIGATION -->
+
+<body id="index">
+
+<!-- Navigation & Logo
+  ======================-->
   <nav>
-    <ul>
+    <div class="container">
+      <div class="row nav">
 
-      <li class="logo">&lt; Oh My Codeness &gt;</li>
-      <li class="active"><a href="../index.html">Home</a></li>
-
-      <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
-        <div class="dropdown-content">
-          <a href="c1-reflection-blog.html">Reflections about EDA</a>
-          <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
-          <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+        <div class="four columns">
+          <a href="../index.html"><h1 class="logo">&lt;Oh My Codeness&gt;</h1></a>
         </div>
 
-        <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
-         <div class="dropdown-content">
-          <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
-          <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
-        </div>
-      </li>
+        <div class="eight columns">
+          <ul>
+           <li class="dropdown"><a href="#" class="dropbtn">Cultural</a>
+            <div class="dropdown-content">
+              <a href="c1-reflection-blog.html">Reflections about EDA</a>
+              <a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a>
+              <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" class="dropbtn">Technical</a>
+            <div class="dropdown-content">
+             <a href="t2-html-css-dom-p1.html">Udacity Part 1</a>
+             <a href="t2-html-css-dom-p2.html">Udacity Part 2</a>
+           </div>
+         </li>
+         <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+         <li><a href="aboutme.html" title="About Me">About Me</a></li>
+         <li><a href="#contact" title="Contact Me">Contact Me</a></li>
+       </ul>
+     </div>
 
-      <li><a href="#">Contact Me</a></li>
-
-    </ul>
-  </nav>
-  <!-- JUMBOTRON -->
-  <header class="jumbotron udacity-2">
-   <div class="container">
-
-   <!-- INSERT NEW QUOTE -->
-     <div class="quote">The ultimate promise of technology is to make us master of a world that we command by the push of a button. –Volker Grassmuck</div>
    </div>
- </header>
+ </div>
+</nav>   
 
- <article>
-  <header>
-    <h2>Udacity Reflection - Part 2</h2>
-    <time datetime="2016-03-23"><em>Wednesday, 23 March 2016</em></time>
-  </header> 
-  <h4>What is grid based design?</h4>
-  <p>A website built using grid based design has a layout that is based on pre-set columns and rows.  It serves as a guide to place elements of a website. It also helps to create consistency within a site.</p>
- <h4>What's all the hype about responsive webpages?</h4>
- <p>Due to the increasing development of technology, there is a wide spectrum of screen sizes and resolutions that a web developer must cater to. Instead of creating a different version of a website for each indivicual device, a responsive design will autmomatically adjust the layout of a website to make it look good based on the browser's width and resolution.</p>
- <h4>What is Semantic Structure?</h4>
- <p>Semantics structure is used to reinforce the meaning of content in a website. Semantic tags provide additional information about your document and for example, can optimizes search engines results. Semantic tags identify things like navigation, section, articles and time.</p>
- <h4>Interesting thoughts to reflect on</h4>
- <p>I think it's really interesting just how much HTML and CSS has evolved since the conception of the internet. We've gone through various versions of HTML and CSS and there is so much added functionality with each language. Considering how much the web will continue to evolve, I think web development is definitely an exciting place to be. </p> 
+<!-- Header
+  ======================== -->
+  <header class="index">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Blog.</h2>
+          <h1>Udacity - Part 2</h1>
+          <p class="intro">
+            "The ultimate promise of technology is to make us master of a world that we command by the push of a button." –Volker Grassmuck
+          </p>
 
- <img class="aligncenter" src="http://goo.gl/2fl6c8" alt="Sometimes, evolution sucks">
-</article>
+        </div>
+      </div>
+    </div>
+
+  </header>
 
 
-<!-- FOOTER -->
-<footer>
-  &copy; 2016 Ohmycodeness
-</footer>
+<!-- Blog Content
+  ======================== -->
+  <section>
+    <div class="container blog-content">
+      <div class="row">
+
+        <div class="blog eight columns">
+          <h3><span><time datetime="2016-03-16">Wednesday, 23 March 2016</time></span></h3>
+          <h4>What is grid based design?</h4>
+          <p>
+            A website built using grid based design has a layout that is based on pre-set columns and rows.  It serves as a guide to place elements of a website. It also helps to create consistency within a site.
+          </p>
+          <h4>What's all the hype about responsive webpages?</h4>
+          <p>
+            Due to the increasing development of technology, there is a wide spectrum of screen sizes and resolutions that a web developer must cater to. Instead of creating a different version of a website for each indivicual device, a responsive design will autmomatically adjust the layout of a website to make it look good based on the browser's width and resolution.
+          </p>
+          <h4>What is Semantic Structure?</h4>
+          <p>
+            Semantics structure is used to reinforce the meaning of content in a website. Semantic tags provide additional information about your document and for example, can optimizes search engines results. Semantic tags identify things like navigation, section, articles and time.
+          </p>
+          <h4>Interesting thoughts to reflect on</h4>
+          <p>
+            I think it's really interesting just how much HTML and CSS has evolved since the conception of the internet. We've gone through various versions of HTML and CSS and there is so much added functionality with each language. Considering how much the web will continue to evolve, I think web development is definitely an exciting place to be.
+          </p> 
+          <img class="u-max-full-width" src="http://goo.gl/2fl6c8" alt="Sometimes, evolution sucks">
+        </div>
+
+<!-- Recent Posts 
+  ======================-->
+  <aside class="recent four columns">
+    <h3><span>Recent Posts</span></h3>
+    <ul>
+      <li> <a href="c1-reflection-blog.html">Reflections on EDA</a></li>
+      <li><a href="c1-time-and-habits-blog.html">Time and Habit Techniques</a></li>
+      <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+      <li><a href="t2-html-css-dom-p1.html">Udacity Part 1</a></li>
+      <li><a href="t3-design-to-web-blog.html">Web to Design</a></li>
+    </ul>
+  </aside>
+
+</div>
+</div>
+</section>
+
+<!-- Previous Next 
+  ======================-->
+  <div class="container previous-next">
+    <div class="row">
+      <div class="four columns">
+        <a href="t2-html-css-dom-p1.html" alt="Previous"><h5>Previous</h5></a>
+      </div>
+      <div class="four columns">
+        <a href="t3-design-to-web-blog.html" alt="Next"><h5>Next</h5></a>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Footer
+  ======================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><a href="http://www.twitter.com/ohmycodeness" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x round"></i></a></li>
+            <li><a href="http://www.github.com/zippo-yap" title="Github" target=_blank><i class="fa fa-github fa-2x round"></i></a></li>
+            <li><a href="http://www.instagram.com/vsrdwn" title="Instagram" target=_blank><i class="fa fa-instagram fa-2x round"></i></a></li>
+            <li><a href="mailto:zippo-yap@gmail.com" title="Email"><i class="fa fa-envelope fa-2x round"></i></a></li>
+            <li class="copyright">© 2016 OHMYCODENESS ❤</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 </body>
 </html>
