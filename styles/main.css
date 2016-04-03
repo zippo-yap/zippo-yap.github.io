@@ -3,7 +3,7 @@ header,
 section,
 footer {
   border: 1px dotted red;
-} */
+  } */
 
 /* Table of Contents 
 =====================================
@@ -19,8 +19,7 @@ h1, h2, h3, h4, h5, h6, nav, button {
   text-transform: uppercase;
   font-weight: 900;
   word-spacing: 0.3rem;
-  list-style: none;
-}
+  }
 
 body {
   font-family: 'Roboto Slab', serif;
@@ -121,9 +120,9 @@ body {
   min-width: 320px;
 }
 
-ul, li, a {
-  margin: 0;
-  padding: 0;
+
+.blog-content li{
+  text-align: left;
 }
 
 /* Navigation */
@@ -340,6 +339,12 @@ div.one-third {
 
 .recent {
   display: none;
+
+}
+
+.recent li {
+  text-align: center;
+  list-style: none;
 }
 
 .previous-next .four {
@@ -348,7 +353,7 @@ div.one-third {
 }
 
 .previous-next {
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 
