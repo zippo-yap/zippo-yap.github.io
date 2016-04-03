@@ -3,7 +3,7 @@ header,
 section,
 footer {
   border: 1px dotted red;
-  } */
+} */
 
 /* Table of Contents 
 =====================================
@@ -13,12 +13,17 @@ footer {
 
 /* Typography (baseline corrections)
 ===================================== */ 
-h1, h2, h3, h4, h5, h6, nav {
+h1, h2, h3, h4, h5, h6, nav, li, button {
   font-family: 'Biryani', Impact, sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
   word-spacing: 0.3rem;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -32,7 +37,6 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   font-size: 2.6rem;
-  font-weight: 900;
   padding: 4rem 0 2rem 0;
 }
 
@@ -67,18 +71,17 @@ h3 span {
   background: #000;
   color: #fff;
   font-size: 1.8rem;
-  font-weight: 900;
   margin: 1rem;
   padding: 5px 15px ;
 }
 
 h4 {
   font-size: 2rem;
-  font-weight: 900;
 }
 
-p {
- font-family: 'Roboto Slab', serif;
+h5 {
+  font-size: 1.8rem;
+
 }
 
 .logo {
@@ -113,7 +116,6 @@ html {
 
 body {
   min-width: 320px;
-  font-family: 'Roboto Slab', serif;
 }
 
 ul, li, a {
@@ -242,11 +244,11 @@ nav a:hover {
   }
 
   .blog-content {
-   padding: 5rem 2rem 2rem 2rem;
- }
+    padding: 5rem 0 2rem 0;
+  }
 
 
- .photo {
+  .photo {
    display: -webkit-box;
    display: -webkit-flex;
    display: -ms-flexbox;
@@ -273,6 +275,7 @@ nav a:hover {
   color: #c4cbcf;
   display: inline-block;
   font-weight: 900;
+  font-family: 'Biryani', Impact, sans-serif;
 }
 
 .button:hover {
@@ -322,7 +325,7 @@ footer a:hover {
   border-radius: 50%;
 }
 
-div.one-third.column{
+div.one-third {
   padding-bottom: 2rem;
 }
 
@@ -332,14 +335,33 @@ div.one-third.column{
   text-align: left;
 }
 
-.blog.eight.columns {
-  margin-bottom: 5rem;
+.recent {
+  display: none;
 }
+
+.previous-next .four {
+  width: 50%;
+  margin: 0;
+}
+
+.previous-next {
+margin-bottom: 2rem;
+}
+
 
 /* #Media Queries
 ===================================== */
+/* Mobile */
+@media (min-width: 320px) {
 
-/* Larger than mobile */
+  .blog-content {
+    width: 85%;
+
+  }
+}
+
+
+/* Larger than phablet */
 @media (min-width: 550px) {
 
 /* Index 
@@ -377,11 +399,16 @@ nav li {
 
 /* Blog
 ============ */
-.blog.eight.columns {
+
+.blog-content {
+  width: 80%;
+}
+
+.blog.eight {
   width: 100%; 
 }
 
-aside.four.columns {
+aside.four {
   width: 100%;
   margin: 0; 
 }
@@ -392,11 +419,10 @@ aside.four.columns {
 
 /* Index 
 ==============*/
-.one-third.column { 
+.one-third{ 
   width: 30.6666666667%;
   margin-left: 2%;
 }
-
 
 
 nav ul {
@@ -423,12 +449,22 @@ nav li {
 
 /* Blog
 ============ */
-.blog.eight.columns {
+.blog.eight {
   width: 65.3333333333%; 
 }
 
-aside.four.columns {
+.four.columns { 
   width: 30.6666666667%;
+}
+
+aside.four {
+  width: 30.6666666667%;
+  padding: 0 2rem;
+  margin: 0 1rem;
+}
+
+.recent {
+  display: block;
 }
 }
 
