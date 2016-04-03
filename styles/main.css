@@ -271,6 +271,10 @@ nav a:hover {
 }
 
 
+table {
+  text-align: center;
+}
+
 /* Button Styles 
 ==================*/
 
@@ -358,6 +362,7 @@ div.one-third {
 }
 
 
+
 /* #Media Queries
 ===================================== */
 /* Mobile */
@@ -406,6 +411,7 @@ nav li {
   top:100%;
 }
 
+
 /* Blog
 ============ */
 
@@ -421,6 +427,11 @@ aside.four {
   width: 100%;
   margin: 0; 
 }
+
+.five.columns {
+ margin-left: 7%;
+}
+
 }
 
 /* Larger than tablet */
