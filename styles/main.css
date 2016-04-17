@@ -97,8 +97,12 @@ a:hover {
   color: #000;
 }
 
-p.li {
+.blog-content li, dt, dl, dd {
+  text-align: left;
+}
 
+dt{
+  font-weight: 900;
 }
 
 
@@ -122,9 +126,6 @@ body {
 }
 
 
-.blog-content li{
-  text-align: left;
-}
 
 /* Navigation */
 nav {
